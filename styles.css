@@ -68,7 +68,7 @@ p {
     border-radius: 15px 0 0 15px;
     height: inherit;
     z-index: 9999;
-    transition: 4s;
+    /* transition: 5s; */
 }
 
 

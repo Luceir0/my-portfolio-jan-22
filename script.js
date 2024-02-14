@@ -64,14 +64,21 @@ function showSkillsSection() {
     educationContent.classList.remove('hidden');
 }
 
+
 function showContact() {
     menu.classList.remove('visible');
     menu.classList.add('hidden');
     // innerCardA.classList.add('rotation');
     innerCardB.classList.add('rotation');
+    setTimeout(() => {
+        img.classList.remove('visible');
+        img.classList.add('hidden');
+    }, 1000);
 }
 
 function turnThePage() {
+    img.classList.remove('hidden');
+    img.classList.add('visible');
     innerCardB.classList.remove('rotation');
 }
 
